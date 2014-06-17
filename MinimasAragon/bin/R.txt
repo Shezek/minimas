@@ -416,6 +416,7 @@ int string edad_prompt 0x7f050010
 int string piscina_prompt 0x7f050013
 int string prueba_prompt 0x7f050011
 int string sexo_prompt 0x7f050012
+int string toast_crash 0x7f050017
 int style AppBaseTheme 0x7f0b0083
 int style AppTheme 0x7f0b0087
 int style ButtonColor 0x7f0b0084

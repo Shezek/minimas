@@ -11,6 +11,7 @@
     <string name="cronometro">Cronómetro</string>
     <string name="consulta">Consulta de mínimas</string>
     <string name="denuncia">Denuncia</string>
+    <string name="toast_crash">Error de aplicación, lo sentimos</string>
     <string-array name="edad">
         <item>2003</item>
         <item>2002</item>

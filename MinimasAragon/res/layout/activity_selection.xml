@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen" >
+    
+    <android.support.v4.widget.DrawerLayout  
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/SelectionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Bienvenido"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/swimButton"
+            android:layout_width="fill_parent"
+            style="@style/ButtonColor"
+            android:layout_height="100dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/description"
+            android:text="@string/consulta" />
+
+        <Button
+            android:id="@+id/chronoButton"
+            android:layout_width="fill_parent"
+            style="@style/ButtonColor"
+            android:layout_height="100dp"
+            android:layout_marginBottom="15dp"
+            android:contentDescription="@string/description"
+            android:text="@string/cronometro" />
+
+        <Button
+            android:id="@+id/TableInfoB"
+            android:layout_width="fill_parent"
+            style="@style/ButtonColor"
+            android:layout_height="100dp"
+            android:text="Tabla Nadadores" 
+            />
+
+    </LinearLayout>
+
+<ListView 
+            android:id="@+id/left_drawer"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:background="#0f3648"/>
+</android.support.v4.widget.DrawerLayout>
+</FrameLayout>

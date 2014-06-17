@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.minimasaragon.InitScreen" >
+
+    <item
+        android:id="@+id/action_flag"
+        android:orderInCategory="100"
+        android:title="@string/denuncia"
+        android:icon="@drawable/denuncia"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,40 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<color name="mainColor">#186386</color>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Support library compatibility -->
+    <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+    
+	<style name="ButtonColor" parent="@android:style/TextAppearance.Medium">
+    <item name="android:background">#186386</item>
+    <item name="android:typeface">normal</item>
+    <item name="android:textColor">#FFFFFF</item>
+	</style>
+    
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <item name="android:background">#186386</item>
+    <!-- Support library compatibility -->
+    <item name="background">@color/mainColor</item>
+    <item name="titleTextStyle">@style/MyTextAppearance</item>
+    </style>
+	
+    <style name="MyTextAppearance" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:typeface">normal</item>
+    <item name="android:textSize">18dp</item>
+	</style>
+	
+    
+	
+	
+	
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

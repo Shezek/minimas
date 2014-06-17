@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Minimas aragon</string>
+    <string name="description">initImage</string>
+    <string name="action_settings">Settings</string>
+    <string name="edad_prompt">Seleccione su año de nacimiento:</string>
+    <string name="prueba_prompt">Seleccione su prueba:</string>
+    <string name="sexo_prompt">Seleccione su sexo:</string>
+    <string name="piscina_prompt">Seleccione longitud de piscina:</string>
+    <string name="cronometro">Cronómetro</string>
+    <string name="consulta">Consulta de mínimas</string>
+    <string name="denuncia">Denuncia</string>
+    <string-array name="edad">
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1996></item>
+    </string-array>
+    
+   <string-array name="prueba">
+        <item>50M</item>
+        <item>50E</item>
+        <item>50B</item>
+        <item>50L</item>
+        <item>100M</item>
+        <item>100E</item>
+        <item>100B</item>
+        <item>100L</item>
+        <item>100X</item>
+        <item>200M</item>
+        <item>200E</item>
+        <item>200B</item>
+        <item>200L</item>
+        <item>200X</item>
+        <item>400L</item>
+        <item>400X</item>
+        <item>800L</item>
+        <item>1500L</item>
+    </string-array>
+    
+       <string-array name="sexo">
+        <item>masculino</item>
+        <item>femenino</item>
+    </string-array>
+    
+          <string-array name="listArray">
+        <item>Webs</item>
+        <item>Acerca de:</item>
+        <item>Salir</item>
+    </string-array>
+    
+      <string-array name="piscina">
+        <item>25</item>
+        <item>50</item>
+      </string-array>
+    
+</resources>

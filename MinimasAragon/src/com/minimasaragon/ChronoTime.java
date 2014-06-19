@@ -153,10 +153,12 @@ boolean started=false, opened=false;
 
 				@Override
 				public void onClick(View v) {
+					 if(etName.getText().length()>0){
 					guardar();
 					opciones.setVisibility(View.GONE);
 					okB.setVisibility(View.GONE);
-					util.showToast(context,"Nadador guardado");
+					util.showToast(context,"Nadador guardado");}else{    
+						  util.showInfoDialog(context, "datos incompletos", "Por favor, Indique nombre del nadador");}
 				}
 			});
 		 lapB.setOnClickListener(new OnClickListener() {
@@ -180,7 +182,7 @@ boolean started=false, opened=false;
 	  
 	  public void guardar(){
 		  
-		  if(etName.getText().length()>0){
+		 
 		  SQLiteHelper usdbh =
 		            new SQLiteHelper(this, "TableNadadores", null, 1);
 		 
@@ -201,9 +203,8 @@ boolean started=false, opened=false;
 		        	
 		           
 		        
-		  }else{    
-			  util.showInfoDialog(context, "datos incompletos", "Por favor, Indique nombre del nadador");
-		  }
+	  
+		  
 		    
 	  }
 	  
